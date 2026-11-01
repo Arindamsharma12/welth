@@ -119,7 +119,7 @@ export default function SignUpScreen() {
                 <TextInput
                   className="border border-[#E8E6DF] bg-white rounded-xl px-4 py-3 mb-2 text-[#1A1D26"
                   placeholder="Enter Verification Code"
-                  placeholderTextColor="8A8D96"
+                  placeholderTextColor="#8A8D96"
                   value={value}
                   onChangeText={onChange}
                 />
@@ -186,9 +186,9 @@ export default function SignUpScreen() {
             render={({ field: { value, onChange } }) => {
               return (
                 <TextInput
-                  className="flex-1 border border-[#E8E6DF] bg-white rounded-xl px-4 py-3 text-[#1A1D26"
+                  className="flex-1 border border-[#E8E6DF] bg-white rounded-xl px-4 py-3 text-[#1A1D26]"
                   placeholder="First Name"
-                  placeholderTextColor="8A8D96"
+                  placeholderTextColor="#8A8D96"
                   value={value}
                   onChangeText={onChange}
                   autoCapitalize="words"
@@ -202,9 +202,9 @@ export default function SignUpScreen() {
             render={({ field: { value, onChange } }) => {
               return (
                 <TextInput
-                  className="flex-1 border border-[#E8E6DF] bg-white rounded-xl px-4 py-3 text-[#1A1D26"
+                  className="flex-1 border border-[#E8E6DF] bg-white rounded-xl px-4 py-3 text-[#1A1D26]"
                   placeholder="Last Name"
-                  placeholderTextColor="8A8D96"
+                  placeholderTextColor="#8A8D96"
                   value={value}
                   onChangeText={onChange}
                   autoCapitalize="words"
@@ -224,9 +224,9 @@ export default function SignUpScreen() {
           render={({ field: { value, onChange } }) => {
             return (
               <TextInput
-                className="border border-[#E8E6DF] bg-white rounded-xl px-4 py-3 mb-2 text-[#1A1D26"
+                className="border border-[#E8E6DF] bg-white rounded-xl px-4 py-3 mb-2 text-[#1A1D26]"
                 placeholder="Email Address"
-                placeholderTextColor="8A8D96"
+                placeholderTextColor="#8A8D96"
                 value={value}
                 onChangeText={onChange}
                 autoCapitalize="none"
@@ -250,9 +250,9 @@ export default function SignUpScreen() {
           render={({ field: { value, onChange } }) => {
             return (
               <TextInput
-                className="border border-[#E8E6DF] bg-white rounded-xl px-4 py-3 mb-2 text-[#1A1D26"
+                className="border border-[#E8E6DF] bg-white rounded-xl px-4 py-3 mb-2 text-[#1A1D26]"
                 placeholder="Password"
-                placeholderTextColor="8A8D96"
+                placeholderTextColor="#8A8D96"
                 value={value}
                 onChangeText={onChange}
                 secureTextEntry
